@@ -1,0 +1,16 @@
+/* Import font */
+@font-face {
+	font-family: Inter;
+	src: url('../public/font/Inter.ttf');
+}
+
+/* Global style */
+body {
+	font-family: Inter;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
