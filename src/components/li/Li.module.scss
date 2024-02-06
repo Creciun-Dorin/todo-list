@@ -1,0 +1,48 @@
+.li {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 25px;
+	padding: 16px;
+	box-sizing: border-box;
+	border: 1px solid rgb(51, 51, 51);
+	border-radius: 8px;
+	box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+	background: rgb(38, 38, 38);
+
+	label {
+		display: flex;
+		align-items: center;
+		gap: 25px;
+		// text
+		color: rgb(242, 242, 242);
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 140%;
+		letter-spacing: 0%;
+	}
+
+	button {
+		border: none;
+		background-color: transparent;
+		width: 25px;
+		height: auto;
+
+		svg {
+			width: 100%;
+			height: auto;
+
+			path {
+				fill: rgb(26, 26, 26);
+				transition: fill .3s ease-in;
+			}
+
+		}
+
+		&:hover {
+			svg path {
+				fill: #DC3545;
+			}
+		}
+	}
+}
